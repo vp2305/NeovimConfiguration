@@ -19,6 +19,11 @@ null_ls.setup({
 		formatting.black, -- python formatter
 		formatting.autopep8, -- Python formatter
 		formatting.clang_format, -- C and C++ formatter
+		formatting.rubocop, -- ruby formatter
+		formatting.standardrb, -- ruby formatter
+
+		diagnostics.rubocop, -- ruby linter
+		diagnostics.standardrb, -- ruby linter
 		diagnostics.cpplint, -- C and C++ linter
 		diagnostics.eslint_d.with({ -- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
